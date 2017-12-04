@@ -6,9 +6,8 @@ var mysql = require('mysql')
 
 var options = {
     host: 'localhost',
-    port: 3306,
     user: 'root',
-    password: 'XXX',
+    password: '123456',
     database: 'jianshu'
 }
 

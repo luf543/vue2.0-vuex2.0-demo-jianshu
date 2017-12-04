@@ -59,7 +59,7 @@
             // 保存文章
             saveArticle () {
                 this.$http.post('/article/saveArticle', this.note).then(function (response) {
-                    var resData = JSON.parse(response.body)
+                    var resData = response.body
                     if (resData.status) {
                         var _self = this
                         _self.resMsg = '恭喜你!发表成功'
